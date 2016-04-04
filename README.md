@@ -1,10 +1,14 @@
 # Usage
 
-> mono monohttpd 127.0.0.1 8080
+```bash
+$ mono monohttpd 127.0.0.1 8080
+```
 
 # Test
 
-> vim req.json
+```bash
+$ vim req.json
+```
 
 ~~~
 {
@@ -30,4 +34,6 @@
 
 ~~~
 
-> curl -d @req.json --header "Content-Type: application/json" http://127.0.0.1:8080/ 
+```bash
+$ curl -d @req.json --header "Content-Type: application/json" http://127.0.0.1:8080/ 
+```
