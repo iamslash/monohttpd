@@ -12,6 +12,7 @@ namespace monohttpd
 			if (args == null || args.Length != 2)
 			{
 				Console.WriteLine("usage) mono monohttpd.exe <ip> <port>");
+				Console.WriteLine("");
 				Console.WriteLine("example) mono monohttpd.exe 127.0.0.1 8080");
 			}
 
